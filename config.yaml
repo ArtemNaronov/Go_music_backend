@@ -1,0 +1,8 @@
+music_path: D:\Music
+data_path: data
+host: 0.0.0.0
+port: 8080
+token: change-me-to-a-secure-token
+metadata:
+  enabled: true
+  user_agent: GoMusic/1.0 (https://github.com/temic/go-music)

@@ -1,0 +1,60 @@
+# Binaries and build output
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test and coverage
+*.test
+*.out
+coverage.*
+*.prof
+*.pprof
+
+# Go workspace (local)
+go.work
+go.work.sum
+
+# Vendor (if used locally)
+/vendor/
+
+# Runtime data (SQLite metadata, downloaded covers)
+/data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Local config overrides (may contain real token or machine-specific paths)
+config.local.yaml
+config.override.yaml
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temp files
+*.log
+/tmp/
+/temp/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+
+# OS junk
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Cursor (local editor state)
+.cursor/
