@@ -1,6 +1,6 @@
 # Go Music Server
 
-Личный музыкальный сервер на Go для стриминга локальной библиотеки в iOS-приложение.
+Личный музыкальный сервер на Go для стриминга локальной библиотеки в [iOS-приложение Go Music](https://github.com/ArtemNaronov/Go_music_iOS).
 
 Сервер сканирует локальную папку с музыкой, хранит каталог в памяти и отдаёт REST API для просмотра библиотеки, стриминга треков и обложек. Работает на **Windows**, **Linux** и **macOS**. Рассчитан на использование одним пользователем в домашней сети или через VPN.
 
@@ -11,7 +11,7 @@
 ### Что понадобится
 
 - Компьютер с вашей музыкой (Windows, Linux или macOS)
-- **iPhone** с установленным приложением Go Music
+- **iPhone** с установленным приложением [Go Music (iOS)](https://github.com/ArtemNaronov/Go_music_iOS)
 - Компьютер и телефон в **одной сети** — домашний Wi‑Fi **или** VPN (например, Amnezia)
 
 > **Linux / macOS:** панель управления с QR-кодом рассчитана на Windows. На Linux и macOS используйте консольный сервер — см. раздел [Запуск на Linux и macOS](#запуск-на-linux-и-macos).
@@ -903,6 +903,8 @@ Cache-Control: public, max-age=86400
 > Поле `duration` — длительность сканирования в **секундах** (float).
 
 ## Интеграция с iOS (AVPlayer)
+
+Клиентское приложение: [github.com/ArtemNaronov/Go_music_iOS](https://github.com/ArtemNaronov/Go_music_iOS)
 
 ### Подключение через QR
 
